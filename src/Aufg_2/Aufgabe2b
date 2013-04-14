@@ -1,0 +1,44 @@
+{
+    "gruppe":[
+        {
+            "id":"1",
+            "gruppenleiter":""{
+                "vorname":"Hans",
+                "nachname":"Peter",
+                "email":"peter@live.de",
+                "geburtsdatum":"01.02.1966",
+                "erfahrung":"Profi",
+                "schlagzeug":"vorhanden",
+                "anmerkung":"Wichtig für meine Gruppe ist... "
+            },
+            "person":{
+                "vorname":"",
+                "nachname":"",
+                "email":"",
+                "geburtsdatum":"",
+                "erfahrung":"",
+                "schlagzeug":""
+            }
+        },
+        {
+            "id":"2",
+            "gruppenleiter":{
+                "vorname":"Dietrich",
+                "nachname":"Müller",
+                "email":"müller.dietrich@live.de",
+                "geburtsdatum":"01.06.1977",
+                "erfahrung":"Profi",
+                "schlagzeug":"vorhanden",
+                "anmerkung":"Wichtig für meine Gruppe ist... "
+            },
+             "person":{
+                "vorname":"",
+                "nachname":"",
+                "email":"",
+                "geburtsdatum":"",
+                "erfahrung":"",
+                "schlagzeug":""
+            }
+        }
+    ]
+}

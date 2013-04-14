@@ -1,0 +1,64 @@
+Aufgabe 5
+
+XML
+
+ist ein Meta- Seitenbeschreibungssprache, der Umfang ist groß implementiert. 
+Mit XML kann man beliebige Tag erstellen, die zum Beschreiben der Daten und Datenstruktur benötigt werden. 
+Das Aussehen ist dabei fest definiert, die Bedeutung dagegen überhaupt nicht.
+Ein Tag umschliesst entweder einen Bereich oder steht alleine.
+Ein Tag kann keinen, einen oder mehrere Parameter haben, deren Name frei wählbar ist.
+Parameter erhalten Werte die mit "..." umschlossen sind und mit = zugewiesen werden.
+Tags können ineinander verschachtelt und so die Daten hierarchisch strukturiert werden.
+Ist nicht wie bei JS als Programmiersprache beschränkt.
+XML wurde entwickelt, für leicht Daten zwischen völlig verschiedenen Systemen auszutauschen.
+
+Zur XML-Familie gehören auch XSLT und XSL.
+
+XML:
+	enthält die Daten, in beliebiger hierarchischer verschachtlung.
+XSLT:
+	beschreibt die Struktur der zugehörigen XML Datei. 
+	Empfänger können prüfen, ob die XML Daten korrekt und vollständig sind.
+XSL:
+	ist die Darstellung auf der Webseite.
+
+Vorteile:
+
+- ist ein leichtesten lesbare Format von komplexen, verschachtelten übertragenen Daten. 
+- leichte Übertragung von Kommentaren und Metadaten
+- vereinfachter Austausch mit Dritten
+- ist ein Standard-Austauschformat
+
+
+Nachteile:
+
+- Durch die Nutzung von XML-Tags steigt die Nachrichtenlänge.
+  (Auswirkung auf die Bandbreite, die Speicherkapazität und die Verarbeitungsgeschwindigkeit).
+- Struktur muss erst zerlegt werden um Daten in JavaScript-Objekte zu wandeln.
+
+
+JSON
+
+Ein JSON besteht nur aus einem Objekt.
+Entspricht genau XML, ist nur anders notiert und wegen der fehlenden schließenden Tags kürzer.
+Kennt grundlegende Datentypen (float, int, Sting etc) und die verschachtelungstypen Objekt und Array.
+
+Vorteile:
+
+- reduzierte Syntax
+- Datenvolumen sind geringer (gegenüber XML)
+- reines JavaScript
+- fast alle Vorteile von XML
+- unkomplizierte Daten Verarbeitung der JSON-Objekte. 
+
+
+Nachteile:
+
+- Das Format ist sehr schwer zu verstehen
+- Befehle müssen exakt an der richtigen Stelle stehen
+- komplizierte Syntax (z.B.: }} ] } )
+- schlechte Möglichkeiten, Metadaten und Kommentare zu integrieren.
+
+
+XML und JSON werden erst dann verwendet, wenn HTML-Elemente mir neuen Daten gefüllt werden sollen. Die meisten Programmierer empfinden es wegen der kurzen Notation und der einfachen Handhabung in Javascript besser. (JSON ist schneller als XML). 
+

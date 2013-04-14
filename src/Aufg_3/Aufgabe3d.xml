@@ -1,0 +1,67 @@
+<Recipe xmlns="http://www.chefkoch.de/rezepte/24641006006067/Lenchen-s-Schokoladenkuchen.html">
+  
+   <Rezept id="">
+   <Titel></Titel>
+      <Bilder>
+         <Bild width="" height="" src="" />
+      </Bilder>
+      
+      <Zutaten>
+         <Zutat Name="" Menge="" Einheit="" />
+      </Zutaten>
+      
+      <Titel2>Zubereitung</Titel2>
+      
+      <Arbeitszeit Name="Arbeitszeit:" wert="" Einheit="" />
+      <Schwierigkeitsgrad Name="Schwierigkeitsgrad:" wert="" />
+      <Brennwert Name="Brennwert p.P.:" wert="" Einheit="" />
+      <Zubereitung Zubereitung="" />
+      
+      <Kommentar id="" Name="" Bild="" Datum="" Kommentar="" />
+   </Rezept>
+   
+   
+   //1. Datensatz
+   <Rezept id="1">
+   <Titel>Schokomuffins</Titel>
+   <Bilder>
+       <Bild width="150" height="150" src="www.dsdsdfsdf.dfds" />
+   </Bilder>
+   
+   <Zutaten>
+       <Zutat Name="Schokolade" Menge="200" Einheit="g" />
+       <Zutat Name="Mehl" Menge="100" Einheit="g" />
+   </Zutaten>
+   
+   <Arbeitszeit Name="Arbeitszeit:" wert="10" Einheit="min" />
+   <Schwierigkeitsgrad Name="Schwierigkeitsgrad:" wert="einfach" />
+   <Brennwert Name="Brennwert p.P.:" wert="500" Einheit="kcal" />
+   <Zubereitung Zubereitung="Zunächst ..." />
+      
+   <Kommentar id="1" Name="maus" Bild="www.sdfsdfsvdfg.asd" Datum="19.06.1990" Kommentar="Hey das ist toll" />
+   </Rezept>
+   
+   
+   //2.Datensatz
+   <Rezept id="2435">
+   
+   <Titel>Tortellini mit Spinat</Titel>
+   <Bilder>
+       <Bild width="150" height="150" src="www.sgdhrhdgf.wsad" />
+   </Bilder>
+   
+   <Zutaten>
+       <Zutat Name="Mehl" Menge="200" Einheit="g" />
+       <Zutat Name="Spinat" Menge="100" Einheit="g" />
+   </Zutaten>
+   
+   <Arbeitszeit Name="Arbeitszeit:" wert="30" Einheit="min" />
+   <Schwierigkeitsgrad Name="Schwierigkeitsgrad:" wert="mittel" />
+   <Brennwert Name="Brennwert p.P.:" wert="700" Einheit="kcal" />
+   <Zubereitung Zubereitung="Erst den Teig....." />
+      
+   <Kommentar id="1" Name="maus" Bild="www.sdfsdfsvdfg.asd" Datum="19.06.1990" Kommentar="Hey das ist toll" />
+   </Rezept>
+   
+   
+</Recipe>

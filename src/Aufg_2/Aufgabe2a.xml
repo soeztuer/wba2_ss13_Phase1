@@ -1,0 +1,57 @@
+1.Variante (Atribut)
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<gruppe id="1"> 
+
+	<gruppenleiter Vorname="Hans" Nachname="Peter" Email="peter@live.de" Geburtsdatum="01.02.1966" Erfahrung="Profi" Schlagzeug="vorhanden" Anmerkung="Wichtig für meine Gruppe ist... ">
+	</gruppenleiter>
+	
+	<person Vorname="" Nachname="" Email="" Geburtsdatum="" Erfahrung="" Schlagzeug="">
+	</person>
+	
+	</gruppe>	
+
+<gruppe id="2"> 
+
+	<gruppenleiter Vorname="Dietrich" Nachname="Müller" Email="müller.dietrich@live.de" Geburtsdatum="01.06.1977" Erfahrung="Profi" Schlagzeug="vorhanden" Anmerkung="Wichtig für meine Gruppe ist... ">
+	</gruppenleiter>
+	
+	<person Vorname="" Nachname="" Email="" Geburtsdatum="" Erfahrung="" Schlagzeug="">
+	</person>
+	
+	</gruppe>
+
+2.Variante (Elemente)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<gruppen>
+	<gruppe>
+
+		<gruppenleiter id="1">
+
+			<Vorname></Vorname>
+			<Nachname></Nachname>
+			<Email></Email>
+			<Geburtsdatum></Geburtsdatum>
+			<Erfahrung></Erfahrung>
+			<Anmerkung></Anmerkung>
+
+</gruppenleiter>
+
+<personen>
+
+	<person Vorname="Hans" Nachname="Peter" Email="xys.s@hotmail.de" Geburtsdatum="02.02.1988" Erfahrung="ja" Anmerkung="Lets Go!">
+	</person>
+
+</personen>
+</gruppe></gruppen>
+
+
+-Man kann es in zwei Varianten darstellen, aber muss man nicht, ist die eigene Entscheidung.
+
+Nächste schritt wäre oder könnte sein, zu: 
+- überlegen der gruppen größe / wie kann man es festlegen
+- bestimmten des kapazität für die Gruppen 
+

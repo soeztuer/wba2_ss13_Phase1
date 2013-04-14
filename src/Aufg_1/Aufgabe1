@@ -1,0 +1,30 @@
+
+Wohlgeformtheit
+ (well-formed documents)
+Ein Dokument, welches die in den XML-Spezifikationen beschriebenen Regeln erfüllt, bezeichnet man als wohlgeformt (well-formed). Wohlgeformtheit ist die Voraussetzung, dass eine XML-Datei verarbeitet werden kann.
+Die Wohlgeformtheit eines XML Dokuments bedeutet, dass eine Datei die Regeln von XML korrekt einhält. (W3C World Wide Web Consortium).
+Das W3C wurde gegründet um das volle Potenzial des Webe auszuschöpfen.
+
+Dazu werden einheitliche Spezifikationen, Richtlinien, Software und Tools entwickelt, die denn Fortschritt des Web fördern.
+
+Jede Xml-Dokument muss genau ein Wurzelelement enthalten, auch root-Element genannt. Die Namen Konvention bei Element-und Attributnamen muss beachtet
+werden. 
+Ausserdem die Groß und Kleinschreibung und Leerzeichen nur im Text einsetzen. Innerhalb eines Elements mit Attributen  ist der Einsatz von Attributnamen nur einmal erlaubt, unter diesen Vorraussetzungen ist das XML Dokument wohlgeformt aber nicht gültig Die Elemente müssen korrekt geschachtelt sein: Ein Element darf
+erst dann geschlossen werden, falls alle im Content dieses Elements liegenden Elemente schon geschlossen sind, das zuletzt geöffnete Element muss als erstes
+geschlossen werden.
+
+Namespace
+
+XML-Namensräume werden benutzt, um das Vokabular eines XML Dokumentes eindeutig zu identifizieren und um in einem einzelnen Dokument mehrere XML-Sprachen zu mischen. Ihre Funktionsweise ist mit Vorwahlen bei Telefonnummern zu vergleichen.
+
+Namensräume werden durch URI dargestellt, meistens also durch normale Webadressen. Dabei ist zu beachten, dass die entsprechende Adresse nicht existieren muss. Sie kann beliebig definiert werden. Wichtig ist zudem, dass bei Namensraumangaben auf Groß- und Kleinschreibung, auch im Host-Teil, sowie eine eventuelle URL Kodierung, ( z. B. %C3%A4 statt ä), geachtet werden muss.
+
+Bei verwenden von URL als Namensraum ist es sinnvoll, unter dieser Adresse zusätzliche Informationen zu der XML-Sprache anzubieten.
+(z.B. ein XML-Schema).
+
+Validität
+bedeutet, dass das XML Dokument wohlgeformt sein muss und den Regeln der Document Type Definition (DTD) entspricht. 
+
+
+
+
