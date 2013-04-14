@@ -1,0 +1,126 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red15\green112\blue3;\red38\green38\blue38;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid1\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Aufgabe 5\
+\
+
+\b XML\
+
+\b0 \
+ist ein Meta- Seitenbeschreibungssprache, der Umfang ist gro\'df implementiert. \
+Mit XML kann man beliebige Tag erstellen, die zum Beschreiben der Daten und Datenstruktur ben\'f6tigt werden. \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+
+\f1\fs26 \cf0 Das 
+\i Aussehen
+\i0  ist dabei fest definiert, die 
+\i Bedeutung
+\i0  dagegen \'fcberhaupt nicht.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf0 Ein Tag umschliesst entweder einen 
+\i Bereich
+\i0  oder steht 
+\i alleine
+\i0 .\
+Ein Tag kann keinen, einen oder mehrere 
+\i Parameter
+\i0  haben, deren Name frei w\'e4hlbar ist.\
+Parameter erhalten 
+\i Werte
+\i0  die mit 
+\f2 \cf2 "..."
+\f1 \cf0  umschlossen sind und mit 
+\f2 \cf2 =
+\f1 \cf0  zugewiesen werden.\
+Tags k\'f6nnen ineinander verschachtelt und so die Daten 
+\i hierarchisch
+\i0  strukturiert werden.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Ist nicht wie bei JS als Programmiersprache beschr\'e4nkt.\
+XML wurde entwickelt, f\'fcr leicht Daten zwischen v\'f6llig verschiedenen Systemen auszutauschen.\
+\
+Zur 
+\i XML-Familie
+\i0  geh\'f6ren auch XSLT und XSL.\
+\
+
+\b XML:\
+
+\b0 	enth\'e4lt die Daten, in beliebiger hierarchischer verschachtlung.\
+
+\b XSLT:\
+
+\b0 	beschreibt die Struktur der zugeh\'f6rigen XML Datei. \
+	Empf\'e4nger k\'f6nnen pr\'fcfen, ob die XML Daten korrekt und vollst\'e4ndig sind.\
+
+\b XSL:\
+
+\b0 	ist die Darstellung auf der Webseite.\
+\
+
+\i\b \ul Vorteile:\
+\
+
+\i0\b0 \ulnone - ist ein leichtesten lesbare Format von komplexen, verschachtelten \'fcbertragenen Daten. \
+- leichte \'dcbertragung von Kommentaren und Metadaten\
+- vereinfachter Austausch mit Dritten\
+- ist ein Standard-Austauschformat\
+
+\i\b \ul \
+\
+Nachteile:\
+\
+
+\i0\b0 \ulnone - Durch die Nutzung von XML-Tags steigt die Nachrichtenl\'e4nge.\
+  (Auswirkung auf die Bandbreite, die Speicherkapazit\'e4t und die Verarbeitungsgeschwindigkeit).
+\i\b \ul \
+
+\i0\b0 \ulnone - Struktur muss erst zerlegt werden um Daten in JavaScript-Objekte zu wandeln.\
+
+\i\b \ul \
+\
+
+\i0 \ulnone JSON\
+\
+
+\b0 Ein JSON besteht nur aus einem Objekt.\
+Entspricht genau XML, ist nur anders notiert und wegen der fehlenden schlie\'dfenden Tags k\'fcrzer.\
+Kennt grundlegende Datentypen (float, int, Sting etc) und die verschachtelungstypen Objekt und Array.
+\b \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\b0 \cf0 \
+
+\i\b \ul Vorteile:\
+\
+
+\i0\b0 \ulnone - reduzierte Syntax\
+- Datenvolumen sind geringer (gegen\'fcber XML)\
+- reines JavaScript\
+- fast alle Vorteile von XML\
+- unkomplizierte Daten Verarbeitung der JSON-Objekte. \
+
+\i\b \ul \
+\
+Nachteile:\
+\
+
+\i0\b0 \ulnone - Das Format ist sehr schwer zu verstehen\
+- Befehle m\'fcssen exakt an der richtigen Stelle stehen\
+- komplizierte Syntax (z.B.: \}\} ] \} )\
+- schlechte M\'f6glichkeiten, Metadaten und Kommentare zu integrieren.\
+\
+\
+XML und JSON werden erst dann verwendet, wenn HTML-Elemente mir neuen Daten gef\'fcllt werden sollen.
+\f2 \cf3  
+\f0 \cf0 Die meisten Programmierer empfinden es wegen der kurzen Notation und der einfachen Handhabung in Javascript besser. (JSON ist schneller als XML). \
+
+\b \
+}
